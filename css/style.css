@@ -14,6 +14,12 @@ body {
 	padding: 20px 0;
 }
 
+.cabecalhoPrincipal .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .cabecalhoPrincipal-titulo {
 	font-weight: bold;
 	font-size: 2em;
@@ -235,6 +241,7 @@ body {
 	}
 
 	.cabecalhoPrincipal-nav {
+		display: flex;
 		width: auto;
 	}
 
