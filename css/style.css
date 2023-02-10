@@ -54,8 +54,14 @@ body {
 	text-align: center;
 }
 
+.conteudoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .conteudoPrincipal-cursos-link {
 	height: 100px;
+	width: 23%;
 	background-color: #FFF;
 	text-align: center;
 	margin: 1%;
@@ -63,6 +69,10 @@ body {
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
 }
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {margin-right: 0;}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {margin-left: 0;}
 
 .conteudoPrincipal-cursos-link a {
 	text-decoration: none;
